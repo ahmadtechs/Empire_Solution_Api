@@ -1,0 +1,31 @@
+{
+  "name": "empire_solution",
+  "version": "1.0.0",
+  "description": "RESTful API for Empire_Solution",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Ahmad Hussein Habib",
+  "license": "ISC",
+  "dependencies": {
+    "@types/body-parser": "^1.17.1",
+    "@types/cors": "^2.8.6",
+    "@types/express-jwt": "0.0.42",
+    "@types/jsonwebtoken": "^8.3.5",
+    "@types/mongoose": "^5.5.28",
+    "@types/morgan": "^1.7.37",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-jwt": "^5.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.7",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.4"
+  },
+  "devDependencies": {
+    "docker-compose": "^0.23.1"
+  }
+}
